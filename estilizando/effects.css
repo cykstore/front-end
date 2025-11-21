@@ -1,0 +1,23 @@
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgba(250, 147, 29, 0.603);
+}
+
+.btn-sub:hover {
+     transform: translateY(3px);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgba(168, 94, 9, 0.884);
+}
+
+.home a:hover {
+    color: rgba(255, 156, 7, 0.842);
+}

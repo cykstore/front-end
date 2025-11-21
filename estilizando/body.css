@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+    background: #fffaf2;
+    color: #333;
+}
+
+/* Botão topo */
+#top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 15px;
+    border: none;
+    background: #c28b49;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f3e4d8;
+    font-family: "Montserrat", sans-serif;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5a3e1b;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    height: 80vh;
+    background: url("IMG/hero.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #c28b49;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Produtos */
+.produtos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.grid-produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    /* background: white; */
+    padding: 15px;
+    border-radius: 10px;
+    /* box-shadow: 0 0px 3px #0000002c; */
+}
+
+.card h3 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.card p {
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Sobre */
+.sobre {
+    padding: 50px;
+    background: #f7eadf;
+    text-align: center;
+}
+
+.sobre img {
+width: 400px;
+border-radius: 80px;
+
+}
+
+.sobre h2 {
+    padding-bottom: 30px;
+}
+
+.sobre p {
+    padding-top: 20px;
+}
+
+/* Contato */
+.contato {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+form button {
+    background: #c28b49;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.home {
+    padding: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.home nav {}
+
+.hero-content {
+    /* font-family: "Roboto", sans-serif; */
+
+}
+
+.hero-content h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero-content p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero-content a {
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+    background-image: url(../imagens/paes.png);
+}
+
+/* Footer */
+footer {
+    background: #5a3e1b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    /* text-decoration: none; */
+    color: rgb(0, 0, 0);
+    
+}
+
+.contt {
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+    
+}
+
+.contt2 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contt2 p {
+    font-family: "Open Sans", sans-serif; 
+}
+
+.contt2 a {
+   text-decoration: none;
+}
+
+#time {
+   margin: 15px;
+}
+
+#time p {
+    font-family: "Open Sans", sans-serif; 
+}
+
+.name-contato {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
