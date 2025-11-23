@@ -1,0 +1,28 @@
+@media (min-width: 0px ) and (max-width: 520px) {
+  .sobre img {
+   width: 100%;
+  }
+
+}
+
+@media (min-width: 0px ) and (max-width: 480px) {
+  .card img {
+    width: 80%;
+  }
+
+}
+
+
+@media (min-width: 0px ) and (max-width: 620px) {
+  .hero-content {
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 0px ) and (max-width: 370px) {
+  .home nav a {
+  padding: 15px 10px 0px 10px;
+  }
+
+}
